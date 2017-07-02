@@ -1,3 +1,5 @@
+use atlas_database;
+
 SELECT SUM(quantidade) FROM cargo, regime WHERE cargo.idRegime = regime.idRegime;
 
 SELECT municipio.nomeMunicipio, saude.encontrosCS
